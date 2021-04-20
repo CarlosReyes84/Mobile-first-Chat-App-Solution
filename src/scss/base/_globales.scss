@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+img {
+   max-width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  @media(min-width: 1200px) {
+    overflow: hidden;
+  }
+  
+}
+.flex-container {
+  @media(min-width: 1200px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+  }
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  @media(min-width: 1200px) {
+    height: 100vh;
+  }  
+}
+
