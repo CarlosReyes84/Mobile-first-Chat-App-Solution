@@ -68,6 +68,7 @@ img {
   animation: fade-in 2s;
   top: 0;
   background: linear-gradient(to top left, #e942ff, #8838ff);
+  z-index: -1;
 }
 @media (min-width: 1200px) {
   .overlay1 {

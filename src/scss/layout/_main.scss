@@ -21,6 +21,7 @@
     animation: fade-in 2s;
     top: 0;
     background: linear-gradient(to top left, $magneta, $header);
+    z-index: -1;
     @media (min-width: 1200px) {
         left: -10rem;
         height: 90%;
